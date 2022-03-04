@@ -145,3 +145,13 @@ Windows requires a different set of headers.  */
 There was a new version (Release 7) of that specification released in November 2009 (the first update since 1996 
 the primary differences are the loss of official support for termcap and pre-standard C <varargs.h> header). */
 
+#include <curses.h> 
+#include <term.h>
+#include <uncntrl.h>
+
+/* There are other headers that you might need to use. 
+There is no mention of <getopt.h> in these lists, but if you are using GNU Getopt (for long options, for example), you will need and use that header. 
+It is standard on Linux according to the LSB, Linux Standards Base. 
+An older version of the LSB was defined as ISO/IEC 23360:2006 in multiple parts; as of 2014-09-21, the current version of the LSB is 4.1 but version 5.0 is in beta. 
+There is a section of the document that defines which headers are included, but there is no convenient table of the headers in the version I looked at. 
+It is closely aligned with POSIX, but has extra facilities beyond what POSIX defines. */
