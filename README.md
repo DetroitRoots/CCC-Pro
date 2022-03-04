@@ -11,7 +11,6 @@ That creates confusion and slowing your time of development and ruins your produ
 So I made this to reduce this kind of problems.
 This repo includes lots of data gathered from internet over time and all added in single place for developers to find what they want simpler and faster. 
 
-It's a repo for C language where you can see
 
 The goal is to have a single repo for C language where you can see the pure, standard version of C and develop your program based on standards without messing with non standard headers. (or as less as possible)
 It will reduce confusions, useless internet research time (instead, you can just search in this repo to find a faster solution, because even if you search on internet you get 10 different answer from 10 different people).
