@@ -163,3 +163,98 @@ The 53 C++ headers in C++11 */
     The data is from tables 14 and 15 in section 17.6.1.2 Headers, amended as noted below.
     Since the standard has not been published (as of 2014-09-21), this list is not yet definitive. 
 */
+
+//The 54 C++ headers in C++14
+
+#include <algorithm>
+#include <initializer_list>
+#include <numeric>
+#include <strstream>
+#include <array>
+#include <iomanip>
+#include <ostream>
+#include <system_error>
+#include <atomic>
+#include <ios>
+#include <queue>
+#include <thread>
+#include <bitset>
+#include <iosfwd>
+#include <random>
+#include <tuple>
+#include <chrono>
+#include <iostream>
+#include <ratio>
+#include <type_traits>
+#include <codecvt>
+#include <istream>
+#include <regex>
+#include <typeindex>
+#include <complex>
+#include <iterator>
+#include <scoped_allocator>
+#include <typeinfo>
+#include <condition_variable>
+#include <limits>
+#include <set>
+#include <unordered_map>
+#include <deque>
+#include <list>
+#include <shared_mutex>
+#include <unordered_set>
+#include <exception>
+#include <locale>
+#include <sstream>
+#include <utility>
+#include <forward_list>
+#include <map>
+#include <stack>
+#include <valarray>
+#include <fstream>
+#include <memory>
+#include <stdexcept>
+#include <vector>
+#include <functional>
+#include <mutex>
+#include <streambuf>
+#include <future>
+#include <new>
+#include <string>
+
+//The 26 headers related to C (C11) are unchanged compared with C++11
+
+#include <cassert>
+#include <cinttypes>
+#include <csignal>
+#include <cstdio>
+#include <cwchar>
+#include <ccomplex>
+#include <ciso646>
+#include <cstdalign>
+#include <cstdlib>
+#include <cwctype>
+#include <cctype>
+#include <climits>
+#include <cstdarg>
+#include <cstring>
+#include <cerrno>
+#include <clocale>
+#include <cstdbool>
+#include <ctgmath>
+#include <cfenv>
+#include <cmath>
+#include <cstddef>
+#include <ctime>
+#include <cfloat>
+#include <csetjmp>
+#include <cstdint>
+#include <cuchar>
+
+//There is one new header listed for C++14 compared to C++11, namely <shared_mutex>.
+
+/* NB: The draft lists a number of the headers (<deque>, <istream>, <stdexcept>, <unordered_set>) twice. 
+Also, 5 headers from C++11 are not listed in the tables in the draft, 
+    namely <exception>, <iterator>, <ratio>, <scoped_allocator>, and <thread>. Since §18.8 defines <exception>, 
+    §24 defines <iterator>, §20.11 defines <ratio>, §30 defines <thread>, and §30.4 defines <shared_mutex>, 
+this is an example of why you should not trust the draft standards as being the final word — they contain errors. */
+
