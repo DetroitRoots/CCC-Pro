@@ -258,3 +258,104 @@ Also, 5 headers from C++11 are not listed in the tables in the draft,
     §24 defines <iterator>, §20.11 defines <ratio>, §30 defines <thread>, and §30.4 defines <shared_mutex>, 
 this is an example of why you should not trust the draft standards as being the final word — they contain errors. */
 
+
+/* ISO/IEC 14882:2017 (C++17)
+
+Provisional list of headers in C++17 based on the draft N4659 dated 2017-03-21. 
+This is a transcription of tables 16 and 17 from section 20.5.1.2 Headers. 
+This is not the final standard; in theory, something could change. */
+
+//There are 61 C++ headers
+
+#include <algorithm>
+#include <future>
+#include <numeric>
+#include <strstream>
+#include <any>
+#include <initializer_list>
+#include <optional>
+#include <system_error>
+#include <array>
+#include <iomanip>
+#include <ostream>
+#include <thread>
+#include <atomic>
+#include <ios>
+#include <queue>
+#include <tuple>
+#include <bitset>
+#include <iosfwd>
+#include <random>
+#include <type_traits>
+#include <chrono>
+#include <iostream>
+#include <ratio>
+#include <typeindex>
+#include <codecvt>
+#include <istream>
+#include <regex>
+#include <typeinfo>
+#include <complex>
+#include <iterator>
+#include <scoped_allocator>
+#include <unordered_map>
+#include <condition_variable>
+#include <limits>
+#include <set>
+#include <unordered_set>
+#include <deque>
+#include <list>
+#include <shared_mutex>
+#include <utility>
+#include <exception>
+#include <locale>
+#include <sstream>
+#include <valarray>
+#include <execution>
+#include <map>
+#include <stack>
+#include <variant>
+#include <filestystem>
+#include <memory>
+#include <stdexcept>
+#include <vector>
+#include <forward_list>
+#include <memory_resource>
+#include <streambuf>
+#include <fstream>
+#include <mutex>
+#include <string>
+#include <functional>
+#include <new>
+#include <string_view>
+
+//The new headers compared to C++14 seem to be: <any>, <execution>, <filesystem>, <memory_resource>, <optional>, <string_view>, <variant>.
+
+//The 26 headers related to C (C11) are unchanged compared with C++11 and C++14
+
+#include <cassert>
+#include <cinttypes>
+#include <csignal>
+#include <cstdio>
+#include <cwchar>
+#include <ccomplex>
+#include <ciso646>
+#include <cstdalign>
+#include <cstdlib>
+#include <cwctype>
+#include <cctype>
+#include <climits>
+#include <cstdarg>
+#include <cstring>
+#include <cerrno>
+#include <clocale>
+#include <cstdbool>
+#include <ctgmath>
+#include <cfenv>
+#include <cmath>
+#include <cstddef>
+#include <ctime>
+#include <cfloat>
+#include <csetjmp>
+#include <cstdint>
+#include <cuchar>
