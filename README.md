@@ -1,7 +1,8 @@
 <h1 align='center'>  CCC-Pro </h1>
 
 <h1 align='center'> This project is created for all C, C++ and C# developers. </h1> 
-It's based on standardized version of the languages.
+
+It's based on standardized version of C, C++ and C# languages.
 
 I noticed that thanks to non-standard headers, there are some problems when the devs use different operating systems (like as windows/linux) 
 to edit or view the codes written in C / C++ / C#.
