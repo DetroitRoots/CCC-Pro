@@ -21,10 +21,10 @@ This repo will be updated. If you feel like adding new features please don't hes
 
 
 <h2 align='center'>
-Detroit Roots
+Luca Ross
 
-[![GitHub DetroitRoots](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DetroitRoots) 
+[![GitHub LucaRoss](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucaRoss) 
   
 <h4 align='center'>
 <h4 align='center'>
-https://detroitroots.tumblr.com/ </h4>
+</h4>
