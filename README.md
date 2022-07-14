@@ -21,9 +21,9 @@ This repo will be updated. If you feel like adding new features please don't hes
 
 
 <h2 align='center'>
-Luca Ross
+Goktug Erol
 
-[![GitHub LucaRoss](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucaRoss) 
+[![GitHub Goktug Erol](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/goktugerol-dev) 
   
 <h4 align='center'>
 <h4 align='center'>
